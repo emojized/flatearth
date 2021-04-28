@@ -9,7 +9,7 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
    </head>
-   <body>
+   <body style="margin:0">
    <div id="map"></div>
    <style>
    #map{height:100%;}
@@ -18,7 +18,7 @@
    var map = L.map('map', {
    	crs: L.CRS.Simple
    });
-   var bounds = [[0,0], [3064,3072]];
+   var bounds = [[0,0], [1200,1200]];
    var image = L.imageOverlay('airagemap.png', bounds).addTo(map);
 map.fitBounds(bounds);
 </script>
