@@ -13,3 +13,8 @@ marker.on('dragend', function (e) {
     console.log('lat'+marker.getLatLng().lat);
     console.log('long'+marker.getLatLng().lng);
 });
+
+var nyc = L.marker(new L.LatLng(423.875, 603), {
+draggable: false
+}).addTo(map);
+nyc.bindPopup("<b>New York</b>").openPopup();
