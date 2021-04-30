@@ -9,12 +9,18 @@ var marker = L.marker(new L.LatLng(592, 748), {
 draggable: false
 }).addTo(map);
 marker.bindPopup("<b>Zürich</b>").openPopup();
-marker.on('dragend', function (e) {
-    console.log('lat'+marker.getLatLng().lat);
-    console.log('long'+marker.getLatLng().lng);
-});
 
 var nyc = L.marker(new L.LatLng(423.875, 603), {
 draggable: false
 }).addTo(map);
 nyc.bindPopup("<b>New York</b>").openPopup();
+
+var nullisland = L.marker(new L.LatLng(503.1796875, 964.125), {
+draggable: false
+}).addTo(map);
+nullisland.bindPopup("<b>Null Island</b>").openPopup();
+
+nullisland.on('dragend', function (e) {
+    console.log('lat'+nullisland.getLatLng().lat);
+    console.log('long'+nullisland.getLatLng().lng);
+});
