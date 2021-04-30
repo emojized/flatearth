@@ -20,6 +20,11 @@ draggable: false
 }).addTo(map);
 nullisland.bindPopup("<b>Null Island</b>").openPopup();
 
+var real_middle = L.marker(new L.LatLng(600, 600), {
+draggable: false
+}).addTo(map);
+real_middle.bindPopup("<b>Real Middle</b>").openPopup();
+
 nullisland.on('dragend', function (e) {
     console.log('lat'+nullisland.getLatLng().lat);
     console.log('long'+nullisland.getLatLng().lng);
