@@ -9,7 +9,7 @@
    let map1Group = L.layerGroup([image1]);
    let map2Group = L.layerGroup([image2]);
 
-   let map = L.map('mapid', {
+   let map = L.map('map', {
         crs: L.CRS.Simple,
         layers: [map1Group, map2Group]
        });
