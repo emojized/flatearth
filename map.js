@@ -4,7 +4,7 @@
    let bounds = [[0,0], [1200,1200]];
    let image1 = L.imageOverlay('maps/air_age_bigger.jpg', bounds);
    
-   let image2 = L.imageOverlay('maps/flat_earth_xxl.webp', bounds);
+   let image2 = L.imageOverlay('maps/flat_earth_xxl.jpg', bounds);
    
    let map1Group = L.layerGroup([image1]);
    let map2Group = L.layerGroup([image2]);
