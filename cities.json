@@ -106,14 +106,15 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            55.10940716461605,
-            -164.4005623910724
+            -164.4005623910724,
+            55.10940716461605
+            
           ]
         },
         "properties": {
           "mass": "5",
           "name": "Aleutian Islands / Alaska",
-          "reclong": "-164.4005623910724",
+          "reclong": "55.10940716461605",
           "geolocation_address": null,
           "geolocation_zip": null,
           "year": "1880-01-01T00:00:00.000",
@@ -121,7 +122,7 @@
           "fall": "Fell",
           "id": "45",
           "recclass": "L5",
-          "reclat": "55.10940716461605",
+          "reclat": "-164.4005623910724",
           "geolocation_city": null,
           "nametype": "Valid"
         }
