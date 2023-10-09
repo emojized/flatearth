@@ -110,7 +110,7 @@ function mapData(countries, landings) {
 
 // topojson describing the world atlas
 const worldAtlas = 'https://unpkg.com/world-atlas@1.1.4/world/110m.json';
-const meteoriteLandings = 'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json';
+const meteoriteLandings = 'cities.json';
 
 // fetch the data from the provided url(s) and call the function mapping the geometries to path elements
 Promise
