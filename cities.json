@@ -126,7 +126,7 @@
           "geolocation_city": null,
           "nametype": "Valid"
         }
-      }
+      },
       {
         "type": "Feature",
         "geometry": {
@@ -151,7 +151,8 @@
           "reclat": "51.509865",
           "geolocation_city": null,
           "nametype": "Valid"
-        },
+        }
+      },
         {
           "type": "Feature",
           "geometry": {
@@ -176,7 +177,8 @@
             "reclat": "1.290270",
             "geolocation_city": null,
             "nametype": "Valid"
-          },
+          }
+        },
           {
             "type": "Feature",
             "geometry": {
@@ -203,8 +205,8 @@
               "nametype": "Valid"
             }
           }
-        }
-      }
+        
+      
     ],
     "crs": {
       "type": "name",
