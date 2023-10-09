@@ -25,6 +25,81 @@
           "geolocation_city": null,
           "nametype": "Valid"
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.08333,
+            50.775
+          ]
+        },
+        "properties": {
+          "mass": "2",
+          "name": "Tokyo",
+          "reclong": "139.839478",
+          "geolocation_address": null,
+          "geolocation_zip": null,
+          "year": "1880-01-01T00:00:00.000",
+          "geolocation_state": null,
+          "fall": "Fell",
+          "id": "2",
+          "recclass": "L5",
+          "reclat": "35.652832",
+          "geolocation_city": null,
+          "nametype": "Valid"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.08333,
+            50.775
+          ]
+        },
+        "properties": {
+          "mass": "3",
+          "name": "San Francisco",
+          "reclong": "-122.431297",
+          "geolocation_address": null,
+          "geolocation_zip": null,
+          "year": "1880-01-01T00:00:00.000",
+          "geolocation_state": null,
+          "fall": "Fell",
+          "id": "3",
+          "recclass": "L5",
+          "reclat": "37.773972",
+          "geolocation_city": null,
+          "nametype": "Valid"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.08333,
+            50.775
+          ]
+        },
+        "properties": {
+          "mass": "4",
+          "name": "Rio de Janeiro",
+          "reclong": "-43.196388",
+          "geolocation_address": null,
+          "geolocation_zip": null,
+          "year": "1880-01-01T00:00:00.000",
+          "geolocation_state": null,
+          "fall": "Fell",
+          "id": "4",
+          "recclass": "L5",
+          "reclat": "-22.908333",
+          "geolocation_city": null,
+          "nametype": "Valid"
+        }
       }
     ],
     "crs": {
