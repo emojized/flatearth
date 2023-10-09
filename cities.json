@@ -127,6 +127,84 @@
           "nametype": "Valid"
         }
       }
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.509865,
+            -0.118092
+            
+          ]
+        },
+        "properties": {
+          "mass": "6",
+          "name": "London",
+          "reclong": "-0.118092",
+          "geolocation_address": null,
+          "geolocation_zip": null,
+          "year": "1880-01-01T00:00:00.000",
+          "geolocation_state": null,
+          "fall": "Fell",
+          "id": "6",
+          "recclass": "L5",
+          "reclat": "51.509865",
+          "geolocation_city": null,
+          "nametype": "Valid"
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.290270,
+              103.851959
+              
+            ]
+          },
+          "properties": {
+            "mass": "5",
+            "name": "Singapore",
+            "reclong": "103.851959",
+            "geolocation_address": null,
+            "geolocation_zip": null,
+            "year": "1880-01-01T00:00:00.000",
+            "geolocation_state": null,
+            "fall": "Fell",
+            "id": "45",
+            "recclass": "L5",
+            "reclat": "1.290270",
+            "geolocation_city": null,
+            "nametype": "Valid"
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                40.409264,
+                49.867092
+                
+              ]
+            },
+            "properties": {
+              "mass": "7",
+              "name": "Baku",
+              "reclong": "49.867092",
+              "geolocation_address": null,
+              "geolocation_zip": null,
+              "year": "1880-01-01T00:00:00.000",
+              "geolocation_state": null,
+              "fall": "Fell",
+              "id": "7",
+              "recclass": "L5",
+              "reclat": "40.409264",
+              "geolocation_city": null,
+              "nametype": "Valid"
+            }
+          }
+        }
+      }
     ],
     "crs": {
       "type": "name",
