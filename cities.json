@@ -132,15 +132,17 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
+       
             51.509865,
             -0.118092
+            
             
           ]
         },
         "properties": {
           "mass": "6",
           "name": "London",
-          "reclong": "-0.118092",
+          "reclong": "51.509865",
           "geolocation_address": null,
           "geolocation_zip": null,
           "year": "1880-01-01T00:00:00.000",
@@ -148,7 +150,7 @@
           "fall": "Fell",
           "id": "6",
           "recclass": "L5",
-          "reclat": "51.509865",
+          "reclat": "-0.118092",
           "geolocation_city": null,
           "nametype": "Valid"
         }
@@ -158,15 +160,16 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              1.290270,
-              103.851959
+              103.851959,
+              1.290270
+              
               
             ]
           },
           "properties": {
             "mass": "5",
             "name": "Singapore",
-            "reclong": "103.851959",
+            "reclong": "1.290270",
             "geolocation_address": null,
             "geolocation_zip": null,
             "year": "1880-01-01T00:00:00.000",
@@ -174,7 +177,7 @@
             "fall": "Fell",
             "id": "45",
             "recclass": "L5",
-            "reclat": "1.290270",
+            "reclat": "103.851959",
             "geolocation_city": null,
             "nametype": "Valid"
           }
