@@ -114,7 +114,7 @@
         "properties": {
           "mass": "5",
           "name": "Aleutian Islands / Alaska",
-          "reclat": "55.10940716461605",
+          "reclong": "55.10940716461605",
           "geolocation_address": null,
           "geolocation_zip": null,
           "year": "1880-01-01T00:00:00.000",
@@ -122,7 +122,7 @@
           "fall": "Fell",
           "id": "45",
           "recclass": "L5",
-          "reclong": "-164.4005623910724",
+          "reclat": "-164.4005623910724",
           "geolocation_city": null,
           "nametype": "Valid"
         }
@@ -169,7 +169,7 @@
           "properties": {
             "mass": "5",
             "name": "Singapore",
-            "reclat": "1.290270",
+            "reclong": "1.290270",
             "geolocation_address": null,
             "geolocation_zip": null,
             "year": "1880-01-01T00:00:00.000",
@@ -177,7 +177,7 @@
             "fall": "Fell",
             "id": "45",
             "recclass": "L5",
-            "reclong": "103.851959",
+            "reclat": "103.851959",
             "geolocation_city": null,
             "nametype": "Valid"
           }
@@ -187,9 +187,8 @@
             "geometry": {
               "type": "Point",
               "coordinates": [
-                49.867092
-                40.409264
-                
+                49.867092,
+                40.409264                
               ]
             },
             "properties": {
