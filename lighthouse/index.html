@@ -1,0 +1,162 @@
+<html>
+<body>
+<nav class="main">
+<a href="../">Home</a>
+<a href="../flat.html">Flat</a>
+<a href="../globe.html">Globe</a>
+<a href="../blog/">Flight routes blog</a>
+<a href="../lighthouse">Lighthouse considerations</a>
+</nav>
+<style>
+	body {margin:0;}
+	nav.main {
+
+		background: darkgrey;
+		padding:3px;
+		width: 100vw;}
+	nav.main a {
+		color: white;
+		margin-right: 20px;
+		font-family: sans-serif;
+		text-decoration: none;
+		border: 1px groove black;
+		padding:3px;
+	}
+	nav.main a:hover {
+		color: grey;	}
+		main div {
+			display:inline-block;
+			vertical-align: middle;
+		}
+		main div.image {width:200px;}
+		main div.text {width:490;text-align: left; padding-left:10px;}
+		main article {width:700px;margin-bottom:20px;}
+		
+		.background {
+		  width: 400px;
+		  height: 400px;
+		  flex: none;
+		  border-radius: 50%;
+		  box-shadow: 0 0px 35px rgba(0, 0, 0, 0.35);
+		  overflow: hidden;
+		  background: radial-gradient(#073764, #021526);
+		  position: relative;
+		}
+		.background:before, .background:after {
+		  content: "";
+		  animation: circle linear 15s infinite normal;
+		  border-radius: 255px;
+		  bottom: auto;
+		  box-shadow: 0 0 0 1000px transparent;
+		  display: block;
+		  height: 650px;
+		  width: 650px;
+		  position: absolute;
+		  right: auto;
+		  left: 50%;
+		  transform: translate3d(-50%, 65%, 0);
+		}
+		.background:before {
+		  background: #184975;
+		  bottom: -45px;
+		}
+		.background:after {
+		  animation: circle linear 10s infinite reverse;
+		  background: #16436d;
+		  bottom: -135px;
+		}
+		
+		.vale {
+		  width: 290px;
+		  height: 96px;
+		  background: lightgray;
+		  border-radius: 120px 120px 0 0;
+		  position: absolute;
+		  left: 50%;
+		  bottom: 10%;
+		  transform: translateX(-50%);
+		}
+		
+		.lighthouse {
+		  text-align: center;
+		  width: 100%;
+		  height: 100%;
+		}
+		.lighthouse .body {
+		  width: 80px;
+		  height: 130px;
+		  background: repeating-linear-gradient(45deg, #eee, #eee 20px, #d03b3f 20px, #d03b3f 40px);
+		  transform: translate(-50%, -50%);
+		  clip-path: polygon(30% 0, 70% 0, 100% 100%, 0% 100%);
+		  box-shadow: inset -40px 0 0px 0px rgba(0, 0, 0, 0.04);
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		.lighthouse .top {
+		  width: 36px;
+		  height: 20px;
+		  background: #eee;
+		  top: calc(51% - 85px);
+		  left: 50%;
+		  border-left: 5px solid #052a4c;
+		  border-right: 5px solid #052a4c;
+		  border-bottom: 6px solid #9E9E9E;
+		  border-top: 6px solid #9E9E9E;
+		  position: absolute;
+		  transform: translate(-50%, -50%);
+		}
+		.lighthouse .top:before {
+		  content: "";
+		  height: 20px;
+		  width: 35px;
+		  background: #d03b3f;
+		  display: block;
+		  position: relative;
+		  border-radius: 50% 50% 0 0;
+		  top: -132%;
+		  left: 50%;
+		  transform: translateX(-50%);
+		  box-shadow: inset -20px 0 0px 0px rgba(0, 0, 0, 0.04);
+		}
+		.lighthouse .light {
+		  position: absolute;
+		  width: 85px;
+		  height: 208px;
+		  clip-path: polygon(38% 0, 62% 0, 100% 100%, 0% 100%);
+		  background: linear-gradient(rgba(247, 235, 178, 0.8) 0%, rgba(247, 235, 178, 0.2) 100%);
+		  transform: rotate(-90deg);
+		  top: 15px;
+		  right: 36px;
+		}
+		.lighthouse .light:nth-child(2) {
+		  transform: rotate(90deg);
+		  left: 36px;
+		}
+		
+		@keyframes circle {
+		  from {
+			transform: translate3d(-50%, 65%, 0) rotate(0deg);
+		  }
+		  to {
+			transform: translate3d(-50%, 65%, 0) rotate(-360deg);
+		  }
+		}
+</style><center><br><br>
+<div class="background">  
+
+  <div class="vale">
+  </div>
+  <div class="sea">
+  </div>
+
+  <div class="lighthouse">
+	<div class="top"></div>
+	<div class="light"></div>
+	<div class="light"></div>
+	<div class="body"></div>
+  </div>
+
+</div></center></body>
+</html>

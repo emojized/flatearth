@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<title>Flat Earth</title>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+ integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+ crossorigin=""/>
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script src=" https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.min.js "></script>
+   <link href=" https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.min.css " rel="stylesheet">
+   </head>
+   <body style="margin:0">
+       <nav class="main">
+       <a href="/">Home</a>
+       <a href="flat.html">Flat</a>
+       <a href="globe.html">Globe</a>
+       <a href="blog/">Flight routes blog</a>
+       <a href="lighthouse">Lighthouse considerations</a>
+       </nav>
+       <style>
+           body {margin:0;}
+           nav.main {
+       
+               background: darkgrey;
+               padding:3px;
+               width: 100vw;}
+           nav.main a {
+               color: white;
+               margin-right: 20px;
+               font-family: sans-serif;
+               text-decoration: none;
+               border: 1px groove black;
+               padding:3px;
+           }
+           nav.main a:hover {
+               color: grey;	}
+       </style>
+
+   <div id="map"></div>
+   <style>
+   #map{height:100%;}
+   </style>
+   <script src="map.js"></script>
+   <script src="markers.js"></script>
+</body>
+</html>

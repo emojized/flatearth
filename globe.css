@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-body {
+.later {
   min-height: 100vh;
   background: hsl(215, 40%, 20%);
   /* center the viz in the viewport */

@@ -7,11 +7,37 @@
 
 </head>
 <body>
+  <nav class="main">
+  <a href="/">Home</a>
+  <a href="flat.html">Flat</a>
+  <a href="globe.html">Globe</a>
+  <a href="blog/">Flight routes blog</a>
+  <a href="lighthouse">Lighthouse considerations</a>
+  </nav>
+  <style>
+    body {margin:0;}
+    nav.main {
+  
+      background: darkgrey;
+      padding:3px;
+      width: 100vw;}
+    nav.main a {
+      color: white;
+      margin-right: 20px;
+      font-family: sans-serif;
+      text-decoration: none;
+      border: 1px groove black;
+      padding:3px;
+    }
+    nav.main a:hover {
+      color: grey;	}
+  </style>
+<div class="later">
 <!-- partial:index.partial.html -->
 <div class="viz"></div>
 <!-- partial -->
   <script src='https://unpkg.com/topojson@3.0.2/dist/topojson.min.js'></script>
 <script src='https://unpkg.com/d3@5.12.0/dist/d3.min.js'></script><script  src="./globe.js"></script>
-
+</div>
 </body>
 </html>
